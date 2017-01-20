@@ -1,0 +1,21 @@
+{
+  "name": "hunt-the-wumpus",
+  "version": "1.0.0",
+  "description": "A Code Kata based around the game Hunt the Wumpus",
+  "main": "bin/wumpus.js",
+  "scripts": {
+  "scripts": {
+    "test": "node bin/test/*.js",
+    "build": "node_modules/.bin/sibilant "
+  },
+  "author": "@sleepyfox",
+  "license": "CC-BY-4.0",
+  "devDependencies": {
+    "sibilant": "^0.5.5",
+    "vows": "^0.8.1"
+  },
+  "engines": {
+    "node": "7.x"
+  },
+  "private": true
+}
