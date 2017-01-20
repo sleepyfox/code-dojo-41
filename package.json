@@ -4,9 +4,8 @@
   "description": "A Code Kata based around the game Hunt the Wumpus",
   "main": "bin/wumpus.js",
   "scripts": {
-  "scripts": {
-    "test": "node bin/test/*.js",
-    "build": "node_modules/.bin/sibilant "
+    "test": "vows --spec bin/test/*.js",
+    "build": "node_modules/.bin/sibilant src/test/*.lisp -o bin/test"
   },
   "author": "@sleepyfox",
   "license": "CC-BY-4.0",
